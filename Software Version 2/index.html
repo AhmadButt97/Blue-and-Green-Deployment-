@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="StackCraft — Clean code, sharp solutions. Developer portfolio showcasing technical projects, code skills, and open-source contributions.">
+<meta name="author" content="StackCraft">
+<meta name="theme-color" content="#1a1814">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%231a1814'/><text x='16' y='22' text-anchor='middle' fill='%23c9a96e' font-family='serif' font-size='18' font-weight='bold'>S</text></svg>">
+<title>StackCraft — Clean Code, Sharp Solutions</title>
+  <!--
+  Tooplate 2162 StackCraft
+  https://www.tooplate.com/view/2162-stackcraft
+  Free HTML CSS Template
+  -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="tooplate-stackcraft-style.css">
+</head>
+<body>
+
+<!-- ============ NAVIGATION ============ -->
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#hero" class="nav-logo">Stack<span>Craft</span></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Work</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact" class="nav-cta">Get in Touch</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="hero">
+  <div class="hero-content">
+    <div class="hero-label">Full-Stack Developer</div>
+    <h1 class="hero-title">Clean code,<br><em>sharp solutions</em></h1>
+    <p class="hero-tagline">I design and engineer web systems that are built to last — thoughtful architecture, maintainable code, and interfaces that feel right.</p>
+    <div class="hero-actions">
+      <a href="#projects" class="btn-primary">
+        View My Work
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
+      <a href="#contact" class="btn-ghost">Let's connect</a>
+    </div>
+  </div>
+
+  <div class="hero-visual">
+    <div class="hero-float hero-float-1"></div>
+    <div class="hero-float hero-float-2"></div>
+    <div class="hero-float hero-float-3"></div>
+
+    <div class="hero-code-block">
+      <div class="code-header">
+        <div class="code-dot"></div>
+        <div class="code-dot"></div>
+        <div class="code-dot"></div>
+        <span class="code-title">stackcraft.ts</span>
+      </div>
+      <div class="code-body">
+        <span class="cm">// What I build every day</span><br>
+        <span class="kw">interface</span> <span class="typ">Developer</span> {<br>
+        &nbsp;&nbsp;<span class="pr">craft</span>: <span class="str">"precision"</span>;<br>
+        &nbsp;&nbsp;<span class="pr">approach</span>: <span class="str">"systematic"</span>;<br>
+        &nbsp;&nbsp;<span class="pr">passion</span>: <span class="str">"building"</span>;<br>
+        }<br><br>
+        <span class="kw">const</span> <span class="fn">ship</span> <span class="op">=</span> <span class="kw">async</span> () <span class="op">=></span> {<br>
+        &nbsp;&nbsp;<span class="kw">const</span> idea <span class="op">=</span> <span class="kw">await</span> <span class="fn">design</span>();<br>
+        &nbsp;&nbsp;<span class="kw">const</span> code <span class="op">=</span> <span class="kw">await</span> <span class="fn">build</span>(idea);<br>
+        &nbsp;&nbsp;<span class="kw">return</span> <span class="fn">deploy</span>(code);<br>
+        };
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<div class="divider"></div>
+<section class="section" id="about">
+  <div class="section-inner">
+    <div class="section-label reveal">About</div>
+    <div class="about-grid">
+      <div class="about-photo reveal">
+        <img src="images/about.jpg" alt="Developer portrait" style="width:100%;height:100%;object-fit:cover;">
+      </div>
+      <div class="about-text reveal">
+        <h3>Engineer by trade, architect by instinct</h3>
+        <p>I'm a full-stack developer with a deep appreciation for clean architecture and thoughtful design. Over the years, I've built everything from real-time data pipelines to polished SaaS interfaces, always favoring clarity over cleverness.</p>
+        <p>When I'm not shipping features, you'll find me contributing to open-source projects, exploring new frameworks, or writing about the craft of software engineering.</p>
+        <div class="about-stats">
+          <div>
+            <div class="stat-number">8+</div>
+            <div class="stat-label">Years Building</div>
+          </div>
+          <div>
+            <div class="stat-number">40+</div>
+            <div class="stat-label">Projects Shipped</div>
+          </div>
+          <div>
+            <div class="stat-number">12k</div>
+            <div class="stat-label">GitHub Stars</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SKILLS ============ -->
+<section class="section skills-section" id="skills">
+  <div class="section-inner">
+    <div class="section-label reveal">Skills &amp; Tools</div>
+    <div class="section-title reveal">What I work with</div>
+    <div class="section-subtitle reveal">A curated toolkit refined through years of production experience and continuous learning.</div>
+
+    <div class="skills-grid">
+      <div class="skill-category reveal">
+        <h4>Frontend Engineering</h4>
+        <div class="skill-bar">
+          <div class="skill-bar-header"><span class="skill-bar-name">React / Next.js</span><span class="skill-bar-pct">95%</span></div>
+          <div class="skill-bar-track"><div class="skill-bar-fill" style="--w:95%"></div></div>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-bar-header"><span class="skill-bar-name">TypeScript</span><span class="skill-bar-pct">92%</span></div>
+          <div class="skill-bar-track"><div class="skill-bar-fill" style="--w:92%"></div></div>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-bar-header"><span class="skill-bar-name">CSS / Tailwind</span><span class="skill-bar-pct">90%</span></div>
+          <div class="skill-bar-track"><div class="skill-bar-fill" style="--w:90%"></div></div>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-bar-header"><span class="skill-bar-name">Vue / Nuxt</span><span class="skill-bar-pct">78%</span></div>
+          <div class="skill-bar-track"><div class="skill-bar-fill" style="--w:78%"></div></div>
+        </div>
+      </div>
+      <div class="skill-category reveal">
+        <h4>Backend &amp; Infrastructure</h4>
+        <div class="skill-bar">
+          <div class="skill-bar-header"><span class="skill-bar-name">Node.js / Express</span><span class="skill-bar-pct">93%</span></div>
+          <div class="skill-bar-track"><div class="skill-bar-fill" style="--w:93%"></div></div>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-bar-header"><span class="skill-bar-name">PostgreSQL / Redis</span><span class="skill-bar-pct">88%</span></div>
+          <div class="skill-bar-track"><div class="skill-bar-fill" style="--w:88%"></div></div>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-bar-header"><span class="skill-bar-name">Docker / Kubernetes</span><span class="skill-bar-pct">82%</span></div>
+          <div class="skill-bar-track"><div class="skill-bar-fill" style="--w:82%"></div></div>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-bar-header"><span class="skill-bar-name">AWS / GCP</span><span class="skill-bar-pct">85%</span></div>
+          <div class="skill-bar-track"><div class="skill-bar-fill" style="--w:85%"></div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tech Stack Icons -->
+    <div class="tech-stack reveal">
+      <h4>Tech Stack</h4>
+      <div class="tech-icons">
+        <div class="tech-icon">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 21.985c-.275 0-.532-.074-.772-.202l-2.439-1.448c-.365-.203-.182-.277-.072-.314.487-.17.586-.21 1.101-.508.056-.03.129-.018.185.015l1.873 1.115c.074.036.166.036.236 0l7.3-4.226c.072-.041.118-.12.118-.21V7.768c0-.091-.046-.174-.118-.213l-7.3-4.222c-.07-.041-.166-.041-.236 0l-7.3 4.222c-.078.041-.122.124-.122.213v8.44c0 .086.046.166.122.21l2 1.157c1.082.548 1.747-.095 1.747-.735V8.502c0-.124.1-.22.222-.22h.936c.12 0 .222.098.222.22v8.338c0 1.449-.788 2.28-2.156 2.28-.42 0-.752 0-1.688-.46l-1.918-1.105A1.551 1.551 0 0 1 2 16.21V7.768c0-.57.301-1.098.79-1.382l7.3-4.226a1.584 1.584 0 0 1 1.544 0l7.3 4.226c.49.286.79.812.79 1.382v8.44c0 .572-.3 1.096-.79 1.38l-7.3 4.223a1.56 1.56 0 0 1-.634.174z"/></svg>
+          Node.js
+        </div>
+        <div class="tech-icon">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M0 12v12h24V0H0zm19.34-3.2c.1 0 .36.04.5.28.12.2.1.48.04.7l-1.78 6.1c-.06.22-.22.4-.48.4H14.5c-.14 0-.28-.04-.36-.18l-2.1-3.5-2.38 3.5c-.1.14-.24.18-.38.18H6.38c-.24 0-.42-.18-.48-.4L4.12 9.78c-.04-.22-.06-.5.04-.7.14-.24.4-.28.5-.28h3.08c.28 0 .46.18.52.4l.84 3.58 2.06-3.5c.08-.16.24-.28.44-.28h.64c.2 0 .34.12.44.28l2.02 3.5.86-3.58c.06-.22.26-.4.52-.4z"/></svg>
+          WordPress
+        </div>
+        <div class="tech-icon">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M14.23 12.004a2.236 2.236 0 0 1-2.235 2.236 2.236 2.236 0 0 1-2.236-2.236 2.236 2.236 0 0 1 2.235-2.236 2.236 2.236 0 0 1 2.236 2.236zm2.648-10.69c-1.346 0-3.107.96-4.888 2.622C10.21 2.274 8.449 1.314 7.103 1.314c-.897 0-1.636.393-2.142 1.138-.996 1.463-.763 4.164.67 7.413C3.28 10.68 2 12.026 2 13.387 2 16.32 6.84 18.686 12 18.686s10-2.367 10-5.3c0-1.36-1.28-2.706-3.632-3.52 1.434-3.25 1.666-5.95.67-7.413-.506-.745-1.244-1.138-2.14-1.138zM7.103 2.714c.474 0 1.494.362 2.884 1.616-1.262 1.22-2.47 2.71-3.504 4.363A29.496 29.496 0 0 0 3.26 9.86c-1.152-2.65-1.326-4.736-.654-5.724.28-.412.676-.622 1.202-.622h.001l.294.2zm-.4 7.688c.467-.892.982-1.74 1.538-2.536a27.16 27.16 0 0 1 1.96-2.546 27.16 27.16 0 0 1 1.96 2.546c.556.796 1.072 1.644 1.538 2.536a26.27 26.27 0 0 1-1.538 2.536 27.16 27.16 0 0 1-1.96 2.546 27.16 27.16 0 0 1-1.96-2.546 26.27 26.27 0 0 1-1.538-2.536zm7.674 4.79c-.748.868-1.538 1.672-2.358 2.4.82-.728 1.61-1.532 2.358-2.4z"/></svg>
+          React
+        </div>
+        <div class="tech-icon">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M1.125 0C.502 0 0 .502 0 1.125v21.75C0 23.498.502 24 1.125 24h21.75c.623 0 1.125-.502 1.125-1.125V1.125C24 .502 23.498 0 22.875 0zm17.363 9.75c.612 0 1.154.037 1.677.12a6.988 6.988 0 0 1 1.407.405v3.068h-.006a3.348 3.348 0 0 0-.633-.81 2.82 2.82 0 0 0-1.071-.637 2.34 2.34 0 0 0-.825-.15c-.318 0-.6.075-.843.225-.24.15-.36.39-.36.72 0 .21.06.39.18.54.12.15.27.27.45.375.18.105.39.195.63.27.24.075.48.15.72.225.42.12.81.27 1.17.45.36.18.675.405.945.675.27.27.48.585.63.945.15.36.225.78.225 1.26 0 .645-.12 1.17-.36 1.575-.24.405-.57.72-.99.945-.42.225-.9.375-1.44.45a9.497 9.497 0 0 1-1.71.105 10.58 10.58 0 0 1-1.875-.18 6.018 6.018 0 0 1-1.5-.495v-3.27a3.91 3.91 0 0 0 .75.87c.285.255.6.465.945.63.345.165.69.285 1.035.36.345.075.66.105.945.105.39 0 .705-.06.945-.18.24-.12.36-.345.36-.675 0-.24-.075-.435-.225-.585a2.136 2.136 0 0 0-.6-.42 8.162 8.162 0 0 0-.84-.345l-.975-.345c-.795-.3-1.41-.72-1.845-1.26-.435-.54-.652-1.215-.652-2.025 0-.585.12-1.095.36-1.53.24-.435.555-.795.945-1.08.39-.285.84-.495 1.35-.63.51-.135 1.035-.202 1.575-.202zM8.602 4.5h3.45L17.4 19.5H13.8l-.933-2.834H8.437L7.5 19.5H3.9zm1.8 4.95L9.127 13.5h2.636L10.388 9.45z"/></svg>
+          TypeScript
+        </div>
+        <div class="tech-icon">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.001 4.8c-3.2 0-5.2 1.6-6 4.8 1.2-1.6 2.6-2.2 4.2-1.8.913.228 1.565.89 2.288 1.624C13.666 10.618 15.027 12 18.001 12c3.2 0 5.2-1.6 6-4.8-1.2 1.6-2.6 2.2-4.2 1.8-.913-.228-1.565-.89-2.288-1.624C16.337 6.182 14.976 4.8 12.001 4.8zm-6 7.2c-3.2 0-5.2 1.6-6 4.8 1.2-1.6 2.6-2.2 4.2-1.8.913.228 1.565.89 2.288 1.624 1.177 1.194 2.538 2.576 5.512 2.576 3.2 0 5.2-1.6 6-4.8-1.2 1.6-2.6 2.2-4.2 1.8-.913-.228-1.565-.89-2.288-1.624C10.337 13.382 8.976 12 6.001 12z"/></svg>
+          Tailwind
+        </div>
+        <div class="tech-icon">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.193 9.555c-1.264-5.58-4.252-7.414-4.573-8.115-.28-.394-.53-.954-.735-1.44-.036.495-.055.685-.523 1.184-.723.566-4.438 3.682-4.74 10.02-.282 5.912 4.27 9.435 4.888 9.884l.07.05A73.49 73.49 0 0 1 10.3 18.2c-.25-2.14.37-4.128 2.287-5.7 0 0-.684 2.542.086 4.37.462 1.092 1.348 2.066 1.81 2.584.313.352.68.638 1.093.842a6.154 6.154 0 0 0 .662-2.47c.07-1.032-.09-2.073-.464-3.034-.358-.937-.927-1.78-1.58-2.237z"/></svg>
+          Firebase
+        </div>
+        <div class="tech-icon">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M13.983 11.078h2.119a.186.186 0 0 0 .186-.185V9.006a.186.186 0 0 0-.186-.186h-2.119a.185.185 0 0 0-.185.185v1.888c0 .102.083.185.185.185m-2.954-5.43h2.118a.186.186 0 0 0 .186-.186V3.574a.186.186 0 0 0-.186-.185h-2.118a.185.185 0 0 0-.185.185v1.888c0 .102.082.185.185.186m0 2.716h2.118a.187.187 0 0 0 .186-.186V6.29a.186.186 0 0 0-.186-.185h-2.118a.185.185 0 0 0-.185.185v1.887c0 .102.082.185.185.186m-2.93 0h2.12a.186.186 0 0 0 .184-.186V6.29a.185.185 0 0 0-.185-.185H8.1a.185.185 0 0 0-.185.185v1.887c0 .102.083.185.185.186m-2.964 0h2.119a.186.186 0 0 0 .185-.186V6.29a.186.186 0 0 0-.185-.185H5.136a.186.186 0 0 0-.186.185v1.887c0 .102.084.185.186.186m5.893 2.715h2.118a.186.186 0 0 0 .186-.185V9.006a.186.186 0 0 0-.186-.186h-2.118a.185.185 0 0 0-.185.185v1.888c0 .102.082.185.185.185m-2.93 0h2.12a.185.185 0 0 0 .184-.185V9.006a.185.185 0 0 0-.184-.186h-2.12a.185.185 0 0 0-.184.185v1.888c0 .102.083.185.185.185m-2.964 0h2.119a.185.185 0 0 0 .185-.185V9.006a.186.186 0 0 0-.185-.186H5.136a.186.186 0 0 0-.186.186v1.887c0 .102.084.185.186.185m-2.92 0h2.12a.185.185 0 0 0 .184-.185V9.006a.185.185 0 0 0-.184-.186h-2.12a.185.185 0 0 0-.184.185v1.888c0 .102.082.185.185.185M23.763 9.89c-.065-.051-.672-.51-1.954-.51-.338.001-.676.03-1.01.087-.248-1.7-1.653-2.53-1.716-2.566l-.344-.199-.226.327c-.284.438-.49.922-.612 1.43-.23.97-.09 1.882.403 2.661-.595.332-1.55.413-1.744.42H.751a.751.751 0 0 0-.75.748 11.687 11.687 0 0 0 .692 4.062c.545 1.428 1.355 2.48 2.41 3.124 1.18.723 3.1 1.137 5.275 1.137.983.003 1.963-.086 2.93-.266a12.228 12.228 0 0 0 3.823-1.389c.98-.567 1.86-1.288 2.61-2.136 1.252-1.418 1.998-2.997 2.553-4.4h.221c1.372 0 2.215-.549 2.68-1.009.309-.293.55-.65.707-1.046l.098-.288z"/></svg>
+          Docker
+        </div>
+        <div class="tech-icon">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.5.75C6.146.75 1 5.896 1 12.25c0 5.089 3.292 9.387 7.863 10.91.575.101.79-.244.79-.546 0-.273-.014-1.178-.014-2.142-2.889.532-3.636-.704-3.866-1.35-.13-.331-.69-1.352-1.18-1.625-.402-.216-.977-.748-.014-.762.906-.014 1.553.834 1.769 1.179 1.035 1.74 2.688 1.25 3.349.948.1-.747.402-1.25.733-1.538-2.559-.287-5.232-1.279-5.232-5.678 0-1.25.445-2.285 1.178-3.09-.115-.288-.517-1.467.115-3.048 0 0 .963-.302 3.163 1.179.92-.259 1.897-.388 2.875-.388.977 0 1.955.13 2.875.388 2.2-1.495 3.162-1.179 3.162-1.179.633 1.581.23 2.76.115 3.048.733.805 1.179 1.825 1.179 3.09 0 4.413-2.688 5.39-5.247 5.678.417.36.776 1.05.776 2.128 0 1.538-.014 2.774-.014 3.162 0 .302.216.662.79.547C20.709 21.637 24 17.324 24 12.25 24 5.896 18.854.75 12.5.75z"/></svg>
+          GitHub
+        </div>
+        <div class="tech-icon">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M22.2 14.322L21.1 20a2.371 2.371 0 0 1-2.3 2H5.2a2.371 2.371 0 0 1-2.3-2l-1.1-5.678A2.287 2.287 0 0 1 4 11.822H20a2.287 2.287 0 0 1 2.2 2.5zM12 17a2 2 0 1 0-2-2 2 2 0 0 0 2 2zM7.7 6h8.6L17 2H7z"/></svg>
+          PostgreSQL
+        </div>
+        <div class="tech-icon">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 18.588a1.529 1.529 0 0 1-1.895-.72l-3.45-4.771-.5-.667-4.003 5.444a1.466 1.466 0 0 1-1.802.708l5.158-6.92-4.798-6.251a1.595 1.595 0 0 1 1.9.666l3.576 4.83 3.596-4.81a1.435 1.435 0 0 1 1.788-.668L15.659 12l5.341 6.588zM.002 18.142l1.313-1.615L0 18.098l.002.044zm5.784-10.7 2.182 2.95L2.07 17.86c-.48.64-1.24.938-1.964.71l5.68-7.627V7.442z"/></svg>
+          GraphQL
+        </div>
+      </div>
+    </div>
+
+    <!-- GitHub Contributions Grid -->
+    <div class="github-section reveal">
+      <h4>Contribution Activity</h4>
+      <p class="github-subtitle">1,247 contributions in the last year</p>
+      <div class="contrib-grid" id="contribGrid"><div class="contrib-cell"></div><div class="contrib-cell"></div><div class="contrib-cell"></div><div class="contrib-cell"></div><div class="contrib-cell l3"></div><div class="contrib-cell l1"></div><div class="contrib-cell"></div><div class="contrib-cell"></div><div class="contrib-cell"></div><div class="contrib-cell l1"></div><div class="contrib-cell"></div><div class="contrib-cell l2"></div><div class="contrib-cell"></div><div class="contrib-cell"></div><div class="contrib-cell l1"></div><div class="contrib-cell l3"></div><div class="contrib-cell"></div><div class="contrib-cell"></div><div class="contrib-cell l1"></div><div class="contrib-cell"></div><div class="contrib-cell"></div><div class="contrib-cell l3"></div><div class="contrib-cell l3"></div><div class="contrib-cell l4"></div><div class="contrib-cell l2"></div><div class="contrib-cell l3"></div><div class="contrib-cell l2"></div><div class="contrib-cell l1"></div><div class="contrib-cell"></div><div class="contrib-cell"></div><div class="contrib-cell"></div><div class="contrib-cell"></div><div class="contrib-cell"></div><div class="contrib-cell"></div><div class="contrib-cell"></div><div class="contrib-cell"></div><div class="contrib-cell l1"></div><div class="contrib-cell"></div><div class="contrib-cell l3"></div><div class="contrib-cell l1"></div><div class="contrib-cell l1"></div><div class="contrib-cell"></div><div class="contrib-cell l3"></div><div class="contrib-cell l3"></div><div class="contrib-cell l3"></div><div class="contrib-cell"></div><div class="contrib-cell"></div><div class="contrib-cell"></div><div class="contrib-cell"></div><div class="contrib-cell"></div><div class="contrib-cell l4"></div><div class="contrib-cell"></div><div class="contrib-cell l2"></div><div class="contrib-cell l2"></div><div class="contrib-cell"></div><div class="contrib-cell"></div><div class="contrib-cell"></div><div class="contrib-cell"></div><div class="contrib-cell l4"></div><div class="contrib-cell l1"></div><div class="contrib-cell l2"></div><div class="contrib-cell"></div><div class="contrib-cell"></div><div class="contrib-cell"></div><div class="contrib-cell l3"></div><div class="contrib-cell l1"></div><div class="contrib-cell l4"></div><div class="contrib-cell l4"></div><div class="contrib-cell l1"></div><div class="contrib-cell l3"></div><div class="contrib-cell"></div><div class="contrib-cell"></div><div class="contrib-cell l1"></div><div class="contrib-cell l2"></div><div class="contrib-cell l4"></div><div class="contrib-cell"></div><div class="contrib-cell"></div><div class="contrib-cell"></div><div class="contrib-cell l4"></div><div class="contrib-cell"></div><div class="contrib-cell l3"></div><div class="contrib-cell"></div><div class="contrib-cell l2"></div><div class="contrib-cell l2"></div><div class="contrib-cell"></div><div class="contrib-cell"></div><div class="contrib-cell"></div><div class="contrib-cell l4"></div><div class="contrib-cell l1"></div><div class="contrib-cell"></div><div class="contrib-cell l4"></div><div class="contrib-cell"></div><div class="contrib-cell l1"></div><div class="contrib-cell l3"></div><div class="contrib-cell"></div><div class="contrib-cell l2"></div><div class="contrib-cell"></div><div class="contrib-cell l2"></div><div class="contrib-cell"></div><div class="contrib-cell l3"></div><div class="contrib-cell"></div><div class="contrib-cell"></div><div class="contrib-cell l3"></div><div class="contrib-cell l2"></div><div class="contrib-cell"></div><div class="contrib-cell"></div><div class="contrib-cell"></div><div class="contrib-cell l1"></div><div class="contrib-cell"></div><div class="contrib-cell"></div><div class="contrib-cell l1"></div><div class="contrib-cell l4"></div><div class="contrib-cell"></div><div class="contrib-cell"></div><div class="contrib-cell l1"></div><div class="contrib-cell"></div><div class="contrib-cell l2"></div><div class="contrib-cell l3"></div><div class="contrib-cell l1"></div><div class="contrib-cell"></div><div class="contrib-cell l2"></div><div class="contrib-cell l3"></div><div class="contrib-cell l4"></div><div class="contrib-cell"></div><div class="contrib-cell l1"></div><div class="contrib-cell l1"></div><div class="contrib-cell"></div><div class="contrib-cell l2"></div><div class="contrib-cell"></div><div class="contrib-cell"></div><div class="contrib-cell l2"></div><div class="contrib-cell l2"></div><div class="contrib-cell"></div><div class="contrib-cell l3"></div><div class="contrib-cell l4"></div><div class="contrib-cell l1"></div><div class="contrib-cell l1"></div><div class="contrib-cell l1"></div><div class="contrib-cell l4"></div><div class="contrib-cell"></div><div class="contrib-cell l2"></div><div class="contrib-cell l4"></div><div class="contrib-cell l2"></div><div class="contrib-cell l1"></div><div class="contrib-cell"></div><div class="contrib-cell l2"></div><div class="contrib-cell"></div><div class="contrib-cell l1"></div><div class="contrib-cell l2"></div><div class="contrib-cell l1"></div><div class="contrib-cell l1"></div><div class="contrib-cell"></div><div class="contrib-cell l3"></div><div class="contrib-cell"></div><div class="contrib-cell"></div><div class="contrib-cell l1"></div><div class="contrib-cell l3"></div><div class="contrib-cell l2"></div><div class="contrib-cell l4"></div><div class="contrib-cell"></div><div class="contrib-cell l1"></div><div class="contrib-cell"></div><div class="contrib-cell l1"></div><div class="contrib-cell"></div><div class="contrib-cell l1"></div><div class="contrib-cell l4"></div><div class="contrib-cell l1"></div><div class="contrib-cell"></div><div class="contrib-cell"></div><div class="contrib-cell l4"></div><div class="contrib-cell l2"></div><div class="contrib-cell"></div><div class="contrib-cell l3"></div><div class="contrib-cell l4"></div><div class="contrib-cell"></div><div class="contrib-cell"></div><div class="contrib-cell l1"></div><div class="contrib-cell l4"></div><div class="contrib-cell"></div><div class="contrib-cell"></div><div class="contrib-cell"></div><div class="contrib-cell"></div><div class="contrib-cell"></div><div class="contrib-cell l3"></div><div class="contrib-cell"></div><div class="contrib-cell l1"></div><div class="contrib-cell l4"></div><div class="contrib-cell l1"></div><div class="contrib-cell"></div><div class="contrib-cell"></div><div class="contrib-cell"></div><div class="contrib-cell l3"></div><div class="contrib-cell"></div><div class="contrib-cell l2"></div><div class="contrib-cell l1"></div><div class="contrib-cell"></div><div class="contrib-cell l4"></div><div class="contrib-cell l3"></div><div class="contrib-cell l1"></div><div class="contrib-cell"></div><div class="contrib-cell"></div><div class="contrib-cell l3"></div><div class="contrib-cell l4"></div><div class="contrib-cell"></div><div class="contrib-cell"></div><div class="contrib-cell"></div><div class="contrib-cell l4"></div><div class="contrib-cell l3"></div><div class="contrib-cell"></div><div class="contrib-cell l4"></div><div class="contrib-cell l3"></div><div class="contrib-cell l1"></div><div class="contrib-cell l1"></div><div class="contrib-cell l3"></div><div class="contrib-cell l3"></div><div class="contrib-cell"></div><div class="contrib-cell l1"></div><div class="contrib-cell l4"></div><div class="contrib-cell"></div><div class="contrib-cell l2"></div><div class="contrib-cell"></div><div class="contrib-cell l1"></div><div class="contrib-cell"></div><div class="contrib-cell"></div><div class="contrib-cell"></div><div class="contrib-cell l4"></div><div class="contrib-cell"></div><div class="contrib-cell l2"></div><div class="contrib-cell l2"></div><div class="contrib-cell l1"></div><div class="contrib-cell l1"></div><div class="contrib-cell l1"></div><div class="contrib-cell"></div><div class="contrib-cell l3"></div><div class="contrib-cell"></div><div class="contrib-cell l2"></div><div class="contrib-cell l2"></div><div class="contrib-cell"></div><div class="contrib-cell l1"></div><div class="contrib-cell l2"></div><div class="contrib-cell l3"></div><div class="contrib-cell l2"></div><div class="contrib-cell"></div><div class="contrib-cell l1"></div><div class="contrib-cell"></div><div class="contrib-cell l3"></div><div class="contrib-cell"></div><div class="contrib-cell"></div><div class="contrib-cell l2"></div><div class="contrib-cell"></div><div class="contrib-cell"></div><div class="contrib-cell"></div><div class="contrib-cell l3"></div><div class="contrib-cell l3"></div><div class="contrib-cell"></div><div class="contrib-cell l1"></div><div class="contrib-cell"></div><div class="contrib-cell l2"></div><div class="contrib-cell"></div><div class="contrib-cell"></div><div class="contrib-cell l1"></div><div class="contrib-cell l4"></div><div class="contrib-cell l1"></div><div class="contrib-cell"></div><div class="contrib-cell l3"></div><div class="contrib-cell"></div><div class="contrib-cell l3"></div><div class="contrib-cell l1"></div><div class="contrib-cell"></div><div class="contrib-cell"></div><div class="contrib-cell"></div><div class="contrib-cell l3"></div><div class="contrib-cell"></div><div class="contrib-cell"></div><div class="contrib-cell l1"></div><div class="contrib-cell l2"></div><div class="contrib-cell"></div><div class="contrib-cell l1"></div><div class="contrib-cell l3"></div><div class="contrib-cell"></div><div class="contrib-cell"></div><div class="contrib-cell"></div><div class="contrib-cell l2"></div><div class="contrib-cell"></div><div class="contrib-cell"></div><div class="contrib-cell l2"></div><div class="contrib-cell l3"></div><div class="contrib-cell l2"></div><div class="contrib-cell l4"></div><div class="contrib-cell l3"></div><div class="contrib-cell l3"></div><div class="contrib-cell l4"></div><div class="contrib-cell l2"></div><div class="contrib-cell"></div><div class="contrib-cell"></div><div class="contrib-cell l3"></div><div class="contrib-cell l3"></div><div class="contrib-cell"></div><div class="contrib-cell"></div><div class="contrib-cell"></div><div class="contrib-cell"></div><div class="contrib-cell"></div><div class="contrib-cell l1"></div><div class="contrib-cell"></div><div class="contrib-cell l3"></div><div class="contrib-cell"></div><div class="contrib-cell l2"></div><div class="contrib-cell"></div><div class="contrib-cell"></div><div class="contrib-cell l4"></div><div class="contrib-cell l3"></div><div class="contrib-cell l3"></div><div class="contrib-cell l1"></div><div class="contrib-cell l3"></div><div class="contrib-cell l4"></div><div class="contrib-cell"></div><div class="contrib-cell l2"></div><div class="contrib-cell l1"></div><div class="contrib-cell"></div><div class="contrib-cell l1"></div><div class="contrib-cell"></div><div class="contrib-cell"></div><div class="contrib-cell"></div><div class="contrib-cell"></div><div class="contrib-cell l1"></div><div class="contrib-cell l1"></div><div class="contrib-cell l2"></div><div class="contrib-cell"></div><div class="contrib-cell"></div><div class="contrib-cell"></div><div class="contrib-cell l1"></div><div class="contrib-cell l1"></div><div class="contrib-cell"></div><div class="contrib-cell l2"></div><div class="contrib-cell l3"></div><div class="contrib-cell"></div><div class="contrib-cell"></div><div class="contrib-cell"></div><div class="contrib-cell l4"></div><div class="contrib-cell"></div><div class="contrib-cell l3"></div><div class="contrib-cell l3"></div><div class="contrib-cell l1"></div><div class="contrib-cell"></div><div class="contrib-cell"></div><div class="contrib-cell"></div><div class="contrib-cell l2"></div><div class="contrib-cell"></div><div class="contrib-cell l3"></div><div class="contrib-cell"></div><div class="contrib-cell"></div><div class="contrib-cell l1"></div><div class="contrib-cell l4"></div><div class="contrib-cell"></div><div class="contrib-cell"></div><div class="contrib-cell"></div><div class="contrib-cell"></div><div class="contrib-cell l2"></div><div class="contrib-cell l1"></div><div class="contrib-cell l3"></div><div class="contrib-cell"></div><div class="contrib-cell l4"></div><div class="contrib-cell l1"></div><div class="contrib-cell l3"></div></div>
+      <div class="contrib-legend">
+        <span>Less</span>
+        <div class="contrib-legend-cell" style="background: rgba(201,169,110,0.06)"></div>
+        <div class="contrib-legend-cell" style="background: rgba(201,169,110,0.14)"></div>
+        <div class="contrib-legend-cell" style="background: rgba(201,169,110,0.28)"></div>
+        <div class="contrib-legend-cell" style="background: rgba(201,169,110,0.48)"></div>
+        <div class="contrib-legend-cell" style="background: rgba(201,169,110,0.75)"></div>
+        <span>More</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROJECTS ============ -->
+<section class="section" id="projects">
+  <div class="section-inner">
+    <div class="section-label reveal">Selected Work</div>
+    <div class="section-title reveal">Projects that <em>shipped</em></div>
+    <div class="section-subtitle reveal">A selection of recent builds — from developer tools to production platforms.</div>
+
+    <div class="projects-grid">
+      <div class="project-card reveal">
+        <div class="project-thumb">
+          <img src="images/project-1.jpg" alt="Velocitor dashboard" style="width:100%;height:100%;object-fit:cover;">
+        </div>
+        <div class="project-info">
+          <div class="project-tags"><span class="project-tag">Next.js</span><span class="project-tag">Prisma</span><span class="project-tag">Stripe</span></div>
+          <h3 class="project-name">Velocitor</h3>
+          <p class="project-desc">A real-time analytics dashboard for SaaS teams. Features live metrics, custom event tracking, and Slack-integrated alerts for critical thresholds.</p>
+          <a href="#" class="project-link">View Project <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg></a>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-thumb">
+          <img src="images/project-2.jpg" alt="Gridlock task board" style="width:100%;height:100%;object-fit:cover;">
+        </div>
+        <div class="project-info">
+          <div class="project-tags"><span class="project-tag">React</span><span class="project-tag">WebSocket</span><span class="project-tag">Go</span></div>
+          <h3 class="project-name">Gridlock</h3>
+          <p class="project-desc">Collaborative task board with real-time sync, drag-and-drop workflows, and role-based permissions. Built for distributed engineering teams.</p>
+          <a href="#" class="project-link">View Project <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg></a>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-thumb">
+          <img src="images/project-3.jpg" alt="Scaffold CLI code" style="width:100%;height:100%;object-fit:cover;">
+        </div>
+        <div class="project-info">
+          <div class="project-tags"><span class="project-tag">TypeScript</span><span class="project-tag">CLI</span><span class="project-tag">Open Source</span></div>
+          <h3 class="project-name">Scaffold CLI</h3>
+          <p class="project-desc">An opinionated project scaffolding tool that generates production-ready boilerplates with CI/CD, linting, testing, and deployment configs baked in.</p>
+          <a href="#" class="project-link">View on GitHub <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg></a>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-thumb">
+          <img src="images/project-4.jpg" alt="Meridian edge network" style="width:100%;height:100%;object-fit:cover;">
+        </div>
+        <div class="project-info">
+          <div class="project-tags"><span class="project-tag">Rust</span><span class="project-tag">WASM</span><span class="project-tag">Edge</span></div>
+          <h3 class="project-name">Meridian</h3>
+          <p class="project-desc">A lightweight edge computing framework for deploying serverless functions closer to users. Sub-millisecond cold starts with built-in observability.</p>
+          <a href="#" class="project-link">View Project <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ EXPERIENCE ============ -->
+<section class="section experience-section" id="experience">
+  <div class="section-inner">
+    <div class="section-label reveal">Experience</div>
+    <div class="section-title reveal">Where I've been</div>
+    <div class="section-subtitle reveal">A trajectory shaped by challenging problems, great teams, and continuous growth.</div>
+
+    <div class="timeline">
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">2022 — Present</div>
+        <div class="timeline-role">Senior Full-Stack Engineer</div>
+        <div class="timeline-company">Stratos Systems</div>
+        <div class="timeline-desc">Leading frontend architecture for a cloud infrastructure platform serving 15,000+ developers. Designed the component system, migrated legacy jQuery modules to React, and cut page load times by 40%.</div>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">2020 — 2022</div>
+        <div class="timeline-role">Software Engineer</div>
+        <div class="timeline-company">Luminary Labs</div>
+        <div class="timeline-desc">Built and maintained microservices powering real-time data pipelines for fintech clients. Owned the notification system handling 2M+ daily events with 99.97% uptime.</div>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">2018 — 2020</div>
+        <div class="timeline-role">Frontend Developer</div>
+        <div class="timeline-company">Pixel & Code Agency</div>
+        <div class="timeline-desc">Delivered responsive, accessible web applications for clients ranging from early-stage startups to Fortune 500 companies. Specialized in animation-heavy marketing sites and progressive web apps.</div>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">2016 — 2018</div>
+        <div class="timeline-role">Junior Developer</div>
+        <div class="timeline-company">NovaByte Inc.</div>
+        <div class="timeline-desc">Started my career building internal tools and prototyping client features. Learned the fundamentals of shipping production code, writing tests, and collaborating through code review.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<div class="divider"></div>
+<section class="section" id="contact">
+  <div class="section-inner">
+    <div class="section-label reveal">Contact</div>
+    <div class="section-title reveal">Let's build something</div>
+    <div class="section-subtitle reveal">Whether it's a project collaboration, consulting opportunity, or just a conversation about code — I'd like to hear from you.</div>
+
+    <div class="contact-grid">
+      <div class="contact-text reveal">
+        <h3>Get in touch</h3>
+        <p>I'm currently open to freelance projects and full-time roles where I can work on meaningful products with thoughtful teams. I respond to every message within 24 hours.</p>
+
+        <a href="/cdn-cgi/l/email-protection#3e565b5252517e4d4a5f5d555d4c5f584a105a5b48" class="contact-email">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 4l-10 8L2 4"/></svg>
+          <span class="__cf_email__" data-cfemail="5c34393030331c2f283d3f373f2e3d3a287238392a">[email&#160;protected]</span>
+        </a>
+
+        <div class="social-links">
+          <a href="#" class="social-link" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+          </a>
+          <a href="#" class="social-link" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          </a>
+          <a href="#" class="social-link" aria-label="X / Twitter">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          </a>
+          <a href="#" class="social-link" aria-label="Dev.to">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M7.42 10.05c-.18-.16-.46-.23-.84-.23H6v4.36h.58c.37 0 .67-.08.84-.23.2-.18.3-.46.3-.94v-2c0-.49-.1-.79-.3-.96zm13.37-7.55H3.2C1.94 2.5 1 3.44 1 4.7v14.6c0 1.26.94 2.2 2.2 2.2h17.6c1.26 0 2.2-.94 2.2-2.2V4.7c0-1.26-.94-2.2-2.2-2.2zM9.08 14.8c0 .68-.12 1.24-.37 1.6-.3.44-.75.66-1.35.66H5V7.2h2.35c.6 0 1.05.22 1.35.66.25.37.37.9.37 1.6v5.34zm5.03-5.6H11.9v2.13h1.43v1.4H11.9v2.13h2.21v1.4H11.3c-.55 0-1-.45-1-1V7.8c0-.55.45-1 1-1h2.81v1.4zm4.97 6.25c-.25.58-.7.95-1.36.95-.54 0-.97-.2-1.3-.6l-.02-.02V16h-1.5V7.2h1.5v3.46l.02-.02c.32-.4.75-.6 1.3-.6.66 0 1.1.35 1.36.95.12.28.18.67.18 1.17v2.58c0 .5-.06.88-.18 1.17z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="contact-form reveal">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" placeholder="Your name">
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="you@example.com">
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" placeholder="Tell me about your project..."></textarea>
+        </div>
+        <button class="btn-submit" type="button">Send Message</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <p>Designed &amp; built by <a href="#hero">StackCraft</a> &mdash; Crafted with precision, shipped with care. Design: <a href="https://www.tooplate.com" rel="nofollow" target="_blank">Tooplate</a></p>
+</footer>
+
+  <script src="tooplate-stackcraft-script.js"></script>
+
+</body>
+</html>
