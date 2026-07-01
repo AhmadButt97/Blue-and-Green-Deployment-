@@ -14,12 +14,3 @@ hooks:
   ValidateService:
     - location: validate_service.sh
       timeout: 60
-permissions:
-  - object: /var/www/html
-    pattern: "**"
-    owner: apache
-    group: apache
-    mode: 755
-    type:
-      - file
-      - directory
