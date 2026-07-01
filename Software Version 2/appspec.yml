@@ -5,6 +5,21 @@ files:
     destination: /var/www/html
 file_exists_behavior: OVERWRITE
 hooks:
+  ApplicationStop:
+    - location: stop_httpd.sh
+      timeout: 60
   ApplicationStart:
     - location: restart_httpd.sh
       timeout: 300
+  ValidateService:
+    - location: validate_service.sh
+      timeout: 60
+permissions:
+  - object: /var/www/html
+    pattern: "**"
+    owner: apache
+    group: apache
+    mode: 755
+    type:
+      - file
+      - directory
